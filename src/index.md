@@ -145,11 +145,7 @@ Work in progress, may be ugly
 
 ### Recently Read:
 
-> Need to figure out how to make the GoodReads stuff work.
-  
-
 [Dan’s favorite books »](https://www.goodreads.com/user/show/76282116-dan) 
-Share [book reviews](/) and ratings with Dan, and even join a [book club](/group) on Goodreads. 
 
 * [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers-ebook/dp/B00AFPVP0Y/ref=sr_1_3?dchild=1&amp;keywords=Turn+the+Ship+Around&amp;qid=1623019730&amp;s=books&amp;sr=1-3)
 * [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B078Y98RG8/ref=sr_1_1?dchild=1&amp;keywords=The+Phoenix+Project&amp;qid=1623019692&amp;s=books&amp;sr=1-1)
