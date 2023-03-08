@@ -97,7 +97,7 @@ This is also an opportunity for you to get to know me and my particular manageme
 
 For me personally, no news is good news. I sometimes don’t do a good job of letting people know they’re successful and meeting expectations because if something is going sideways I’ll reach out to you directly. This can sometimes lead to a perceived lack of communication from my direction. I work on over-communicating to try and alleviate this particular flaw, but I still need practice.
 
-I’m a generalist; I know a little bit about a lot of things. I probably don’t have the deep knowledge of specific languages or technologies that you have. That’s why I hired you 😀 ! I’m really good at getting to the meat of a problem or asking probing questions to get to the core of an issue ( [five why’s](https://en.wikipedia.org/wiki/Five_whys) ). Lean on me for troubleshooting, getting to the root of an issue, and making sure that we’re answering the right “why.” I’ll lean on you for the technical know-how to make it all magic.
+I’m a generalist; I know a little bit about a lot of things. I probably don’t have the deep knowledge of specific languages or technologies that you have. That’s why I hired you 😀 ! I’m really good at getting to the meat of a problem or asking probing questions to get to the core of an issue ([five whys](https://en.wikipedia.org/wiki/Five_whys)). Lean on me for troubleshooting, getting to the root of an issue, and making sure that we’re answering the right “why.” I’ll lean on you for the technical know-how to make it all magic.
 
 `TODO:` Talk about conflict avoidance, and how I overcome this by being (sometimes) uncomfortably blunt.
 
