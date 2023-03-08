@@ -129,9 +129,7 @@ I also spend quite a bit of time reading, whether that be ways to improve myself
 Work in progress, may be ugly
 ## Currently Reading:
 
-> We lose the habit of reading because we’re afraid of wasting our time. We think we need to be productive and “on the go” at all times. But people are not machines, and you are nourished by naps and fiction and basking in sunlight, no less than by food and drink.  
-> 
-> — Owl! at the Library 😴🧙‍♀️ (@SketchesbyBoze) [September 2, 2021](https://twitter.com/SketchesbyBoze/status/1433489882094178313?ref_src=twsrc%5Etfw)   
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We lose the habit of reading because we’re afraid of wasting our time. We think we need to be productive and “on the go” at all times. But people are not machines, and you are nourished by naps and fiction and basking in sunlight, no less than by food and drink.</p>&mdash; Owl! at the Library 😴🧙‍♀️ (@SketchesbyBoze) <a href="https://twitter.com/SketchesbyBoze/status/1433489882094178313?ref_src=twsrc%5Etfw">September 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 [GoodReads reading list](https://www.notion.sogoodreads.com/danshort)
 
