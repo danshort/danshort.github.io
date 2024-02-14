@@ -3,13 +3,12 @@
   <head>
     <script>
       // Set the date we're counting down to
+      var countDownDate, x;
       function startTimer() {
-        var countDownDate =
-          new Date().getTime() +
-          document.getElementById("minutes").value * 60000;
+        countDownDate = new Date().getTime() + document.getElementById("minutes").value * 60000;
 
         // Update the count down every 1 second
-        var x = setInterval(function () {
+        x = setInterval(function () {
           // Get today's date and time
           var now = new Date().getTime();
 
