@@ -19,11 +19,21 @@ If I were going to put my management philosophy on the cover of a book, it would
 * **Healthy:** you aren’t getting burnt out. You have adequate time to decompress and spend time with your family (furry or otherwise), nature, or a good book. Your mental health is just as important as your physical health. You know you can come to me with an issue (be it personal or professional), and we’ll work through it or get you the resources to work through it.
 * **Successful:** you’re doing good work, and you see your work make an impact in production. You have a way forward in your career, and you can improve yourself while improving the business. You’re hitting your goals and supporting the business timelines.
 
-I also strive to create a Leader-Leader environment (as opposed to a Leader-Follower organization [see [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers-ebook/dp/B00AFPVP0Y/) ]). This style of leadership is particulary important in a fully remote environment, where we aren't always in the same room, and there is little to no direct supervision. I’m going to work with you to define where we’re going, and you’re going to help figure out how to get there. I can't be involved in every decisions, so I rely on my team to make the decisions they can and then let me know where they're going. I won’t be micro-managing or assigning specific things for you to work on. I’ll work with you to define the goal and let you decide how to get there (with help from me when and where you need it).
+I also strive to create a Leader-Leader environment (as opposed to a Leader-Follower organization [see [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers-ebook/dp/B00AFPVP0Y/) ]). This style of leadership is particularly important in a fully remote environment, where we aren't always in the same room, and there is little to no direct supervision. When working remotely, team autonomy and clear communication become even more critical. I've found that successful remote teams require:
+
+* Clear documentation of decisions and context
+* Explicit trust in team members to manage their time
+* Asynchronous communication as the default
+* Regular, meaningful connection points that respect time zones
+* A culture where results matter more than hours online
+
+I can't be involved in every decision, so I rely on my team to make the decisions they can and then let me know where they're going. I won’t be micro-managing or assigning specific things for you to work on. I’ll work with you to define the goal and let you decide how to get there (with help from me when and where you need it).
 
 ### Conflict Resolution
 
-Another important part of ensuring that you’re happy, healthy, and successful is ensuring that I’m helping you resolve conflicts across teams or technologies. If there is a difference in approach or a misalignment on goals, it will be my job to ensure that your opinion is heard and that there is clear articulation of the potential approaches and documented tradeoffs to help us make informed decisions with our trio partners. The cliche about Product and Engineering being constantly in tension is a cliche because it's often true. It's my job to help Product understand the constraints under which we're operating, and to ensure that Engineering knows the priorities and can help move Product's priorities forward as quickly and efficiently as possible. Cross-functional alignemnt isn't always easy, but it's always possible.
+Another important part of ensuring that you’re happy, healthy, and successful is ensuring that I’m helping you resolve conflicts across teams or technologies. If there is a difference in approach or a misalignment on goals, it will be my job to ensure that your opinion is heard and that there is clear articulation of the potential approaches and documented tradeoffs to help us make informed decisions with our trio partners. The cliché about Product and Engineering being constantly in tension is a cliché because it's often true. It's my job to help Product understand the constraints under which we're operating, and to ensure that Engineering knows the priorities and can help move Product's priorities forward as quickly and efficiently as possible. Cross-functional alignment isn't always easy, but it's always possible.
+
+When security or vulnerability concerns arise, I ensure they get proper attention and aren't sacrificed for speed or features. Building this balance between security, functionality, and usability is a delicate art that requires constant attention from leadership, and a clear communication of the importance of these fixes to stakeholders outside of Engineering and Security.
 
 Trying to get consensus in large groups is the enemy of progress. We may need to commit to an approach in cases where myself, you, a partner, or the team will not agree with it. It is my job to drive a clear direction for next steps so that we can _keep moving forward_. I will work to keep everyone accountable to the decision that was made and escalate when that is not the case. While we may have to go backward and readjust, we will have the learnings from the first approach taken and can apply that to our second attempt. My ultimate goal is to keep forward momentum.
 
@@ -62,6 +72,19 @@ I’m also going to _always_ assume good intent in async communications. It’s 
 ### Humor
 
 I don’t take myself seriously… life is too short. I’m happy to make fun of myself and lean on humor as a way to de-escalate tension and help people understand when I’m being serious or light-hearted in our async text-based work environment. I will `/giphy` the hell out of a conversation where it’s warranted (Kristen Bell and Schitt’s Creek gifs are my love language).
+
+### Security Mindset and Building Trust
+
+As a leader in technology, I recognize that trust is earned through consistent attention to security and privacy. Throughout my career, I've emphasized a few key principles:
+
+* **Security is everyone's responsibility** - not just a specialized team's concern
+* **Privacy and security are foundational** - not features to be added later
+* **Transparency about security practices** builds trust with users
+* **Good security feels invisible** to users while protecting them completely
+
+I encourage teams to integrate security thinking from the earliest design phases and make it part of our definition of done. In practice, this means regular security reviews, encouraging team members to raise concerns, and working closely with security specialists to implement best practices.
+
+The most secure systems are those built by teams who understand that protecting user data is part of delivering value, not an obstacle to it. This mindset creates the foundation for software that users can trust with their most sensitive information.
 
 ## My Expectations
 
@@ -106,7 +129,6 @@ I’m a generalist; I know a little bit about a lot of things. I probably don’
 * Social Media
 
 	* [LinkedIn](https://www.linkedin.com/in/danshort)
-	* [Twitter](https://twitter.com/danshort): I’ve had an account since the beginning of time (2008), but never post
 	* Facebook: I reserve Facebook for personal friends (sorry, no coworkers or colleagues allowed). So connect with me on LinkedIn to stay social with me.
 
 * I’m a mentor on [PlatoHQ](https://www.platohq.com/mentors/Daniel-Short-3a47c)
@@ -133,23 +155,26 @@ Work in progress, may be ugly
 
 [GoodReads reading list](https://www.notion.sogoodreads.com/danshort)
 
-* [Radical Candor](https://www.amazon.com/Radical-Candor-Revised-Kick-Ass-Humanity-ebook/dp/B07P9LPXPT/ref=sr_1_1?dchild=1&amp;keywords=Radical+Candor&amp;qid=1623019703&amp;s=books&amp;sr=1-1)
-* [An Elegant Puzzle: Systems of Engineering Management](https://www.amazon.com/Elegant-Puzzle-Systems-Engineering-Management/dp/1732265186/ref=sxts_rp_s1_0?cv_ct_cx=elegant+puzzle&amp;dchild=1&amp;keywords=elegant+puzzle&amp;pd_rd_i=1732265186&amp;pd_rd_r=0b20af5f-e28c-430c-a4fd-1a9a8a5c4df8&amp;pd_rd_w=Er4rn&amp;pd_rd_wg=YEMud&amp;pf_rd_p=e64e557a-9088-4af1-8992-8ddbd7854c7f&amp;pf_rd_r=TTBBADRXZE81G8CATGC0&amp;psc=1&amp;qid=1623019481&amp;sr=1-1-f0029781-b79b-4b60-9cb0-eeda4dea34d6)
+* [Radical Candor](https://www.amazon.com/Radical-Candor-Revised-Kick-Ass-Humanity-ebook/dp/B07P9LPXPT/)
+* [An Elegant Puzzle: Systems of Engineering Management](https://www.amazon.com/Elegant-Puzzle-Systems-Engineering-Management/dp/1732265186/)
 
 ### Next on the List
 
-* [The Leader’s Guide to Unconscious Bias](https://www.amazon.com/Leaders-Guide-Unconscious-Bias-High-Performing-ebook/dp/B084GB2W94/ref=sr_1_3?dchild=1&amp;keywords=A+Leader%27s+Guide+to+Unconscious+Bias&amp;qid=1623019715&amp;s=books&amp;sr=1-3)
+* [Click Here to Kill Everybody: Security and Survival in a Hyper-connected World](https://www.amazon.com/Click-Here-Kill-Everybody-Hyper-connected/dp/0393357449/)
+* [Implementing Zero Trust Security in a Digital World](https://www.amazon.com/Implementing-Security-Digital-World-implementation-ebook/dp/B0BF25QS9Z/)
+* [The Leader’s Guide to Unconscious Bias](https://www.amazon.com/Leaders-Guide-Unconscious-Bias-High-Performing-ebook/dp/B084GB2W94/)
 * [Influencing Virtual Teams: 17 Tactics That Get Things Done with Your Remote Employees](https://www.amazon.com/Influencing-Virtual-Teams-Tactics-Employees/dp/1530005140/)
 
 ### Recently Read:
 
 [Dan’s favorite books »](https://www.goodreads.com/user/show/76282116-dan) 
 
-* [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers-ebook/dp/B00AFPVP0Y/ref=sr_1_3?dchild=1&amp;keywords=Turn+the+Ship+Around&amp;qid=1623019730&amp;s=books&amp;sr=1-3)
-* [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B078Y98RG8/ref=sr_1_1?dchild=1&amp;keywords=The+Phoenix+Project&amp;qid=1623019692&amp;s=books&amp;sr=1-1)
-* [The Unicorn Project](https://www.amazon.com/Unicorn-Project-Developers-Disruption-Thriving-ebook/dp/B07QT9QR41/ref=sr_1_1?dchild=1&amp;keywords=The+Unicorn+Project&amp;qid=1623019681&amp;s=books&amp;sr=1-1)
-* [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/ref=sr_1_1?dchild=1&amp;keywords=Orbiting+the+Giant+Hairball&amp;qid=1623019654&amp;s=books&amp;sr=1-1) (don’t buy the Kindle version, the physical version is much better)
-* [The Knife of Never Letting Go](https://www.amazon.com/Knife-Never-Letting-Chaos-Walking-ebook/dp/B0044UHVR2/ref=sr_1_1?dchild=1&amp;keywords=The+Knife+of+Never+Letting+Go&amp;qid=1623019639&amp;s=books&amp;sr=1-1)
-* [The Last Campaign](https://www.amazon.com/Last-Campaign-Near-Earth-Mysteries-Book-ebook/dp/B07XKS4G3J/ref=sr_1_2?dchild=1&amp;keywords=The+Last+Campaign&amp;qid=1623019624&amp;s=books&amp;sr=1-2)
-* Robert Jordan’s [The Wheel of Time](https://www.amazon.com/Wheel-Time-Book-Set-Crossroads/dp/B00132BG7U/ref=sr_1_4?dchild=1&amp;keywords=the+wheel+of+time&amp;qid=1623019605&amp;s=books&amp;sr=1-4)
+* [The Ideal Team Player](https://a.co/d/ekFCOAd)
+* [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers-ebook/dp/B00AFPVP0Y/)
+* [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B078Y98RG8/)
+* [The Unicorn Project](https://www.amazon.com/Unicorn-Project-Developers-Disruption-Thriving-ebook/dp/B07QT9QR41/)
+* [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/) (don’t buy the Kindle version, the physical version is much better)
+* [The Knife of Never Letting Go](https://www.amazon.com/Knife-Never-Letting-Chaos-Walking-ebook/dp/B0044UHVR2/)
+* [The Last Campaign](https://www.amazon.com/Last-Campaign-Near-Earth-Mysteries-Book-ebook/dp/B07XKS4G3J/)
+* Robert Jordan’s [The Wheel of Time](https://www.amazon.com/Wheel-Time-Book-Set-Crossroads/dp/B00132BG7U/)
 * [Stranger in a Strange Land](https://www.amazon.com/Stranger-Strange-Land-Robert-Heinlein-ebook/dp/B000TO0TDK/) (for the 5th or 6th time)
