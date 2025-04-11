@@ -1,11 +1,11 @@
 ---
 title: README.dan
 layout: "base.html"
-updated: "20 March, 2025"
+updated: "11 April, 2025"
 ---
 
 ## Motivation for this document
-```Under Construction: I'm working on converting this to 11ty to play with static site generators.```
+```Under Construction: This document will never be finished, just like me.```
 
 My Manager README is a document that helps introduce you to my management style, philosophy, and expectations. The intended audience is primarily anyone who reports to me, though anyone is free to read it - or even provide feedback on it! Please treat it as a reference and guideline for how I will conduct myself as a manager and what I expect from you.
 
@@ -13,7 +13,7 @@ This document is aspirational. This is how I _strive_ to be. I’m not perfect. 
 
 ## My Role and Management Philosophy
 
-If I were going to put my management philosophy on the cover of a book, it would be “Servant Leadership.” My job is to make sure that you can do your job. I want for you the same thing I want for my family; for you to be **happy, healthy, and successful**. Here’s how I judge if I’m doing a good job: 
+If I were going to put my management philosophy on the cover of a book, it would be “Servant Leadership.” My job is to make sure that you can do your job. I want for you the same thing I want for my family; for you to be **happy, healthy, and successful**. Here’s how I judge if I’m doing a good job:
 
 * **Happy:** you enjoy coming to work, and you enjoy the work you do. You feel safe in your work environment, and you know that we will address any issues that are reducing that happiness.
 * **Healthy:** you aren’t getting burnt out. You have adequate time to decompress and spend time with your family (furry or otherwise), nature, or a good book. Your mental health is just as important as your physical health. You know you can come to me with an issue (be it personal or professional), and we’ll work through it or get you the resources to work through it.
@@ -59,9 +59,12 @@ This means that I’m taking the time to learn new approaches to old problems, a
 
 ### Humility and a willingness to say “I don’t know”
 
-If you don’t hear me say “I don’t know” at least once a day, you’re probably not paying attention. I’m well aware of my own limits and will never lead you to believe I know something I don’t. If you assume I’m fully versed on a topic then you may put too much weight on a decision I’ve made based on inaccurate information. If you lead me to believe you know something you don’t, then I’m going to lean on your supposed expertise and we may end up in a bad spot. We all need to understand each other’s limits to ensure that we’re making the best choices possible when solving problems.
+"Humility is not thinking less of yourself, it's thinking of yourself less."
+-- Rick Warren
 
-I’ve led, and continue to lead, teams working on technologies with which I have zero experience. In order to make that work, we have to lean on trust.
+If you don’t hear me say “I don’t know” at least once a day, you’re probably not paying attention. I’m well aware of my own limits and will never lead you to believe I know something I don’t. If you assume I’m fully versed on a topic then you may put too much weight on a decision I’ve made based on inaccurate information. If you lead me to believe you know something you don’t then I’m going to lean on your supposed expertise and we may end up in a bad spot. We all need to understand each other’s limits to ensure that we’re making the best choices possible when solving problems.
+
+I’ve led, and continue to lead, teams working on technologies with which I have zero experience. In order to make that work, we have to trust each other and be transparent about what we do or don't fully grok.
 
 ### Trust and Leaning on the Team
 
@@ -90,19 +93,25 @@ The most secure systems are those built by teams who understand that protecting 
 
 I won’t ask you to do something I’m not willing to do or hold you to a standard to which I don’t hold myself. I also won’t take advantage of something that I don’t also allow you to take advantage of.
 
-`TODO:`
+### Work Quality
 
-* Communication expectations
+You are responsible for the quality of your work that goes to production. No QAE or Automation Engineer is responsible for making sure that you're producing the best quality software you're capable of. This means that you need to take responsibility for edge cases, unit testing, and ensuring that your PRs are clean and as bug-free as they can be. Lean on your QAEs to help you define those test cases, ensure you're hitting the edge cases, and looking around corners, but you are the final stop for the quality for your work.
 
-	* My availability
-	* Their availability
+### Communication
 
-* Work hours/flexibility
-* Work quality
+All I expect in our communications is honesty, candor, and timeliness. Make sure you let me know what's happening when it's happening, particularly if it's going to require my attention or involve reassigning resources to a problem. Own your mistakes, and let me know what you're doing to rectify the situation. As a young engineer I once deleted all user accounts in production at Lynda.com because I neglected to highlight the `WHERE` clause in a `DELETE` statement in SSMS, and I hadn't wrapped the statement in a transaction. I spent the next 12 hours "testing our backups" as I recovered the data, and I continued to be employed at Lynda until I left a year later for a new role. I made a terrible mistake, I owned it, and I corrected it. I also learned how _not_ to run queries in SSMS.
+
+I expect everyone on my teams to operate the same way.
+
+### Availability
+
+As a manager and leader I will do my best to be available to you during your work hours. Operating in a global marketplace with the possiblity of engineers on opposite sides of the world working on the same team, this may not always be possible. I set limits on my availability, and will put my devices on DnD when I need to spend time with family or rest and recharge.
+
+I'll expect the latter of you, but not the former. I expect that you'll be available during your defined core work hours, and will let me know when you won't be available. The most frustrating situation for a leader is to be dealing with an emergency and be unable to reach your team when they should be on-call or during their core work hours. I expect you to disconnect when you're not on-call and you're outside your core work hours. You should, ideally, never see a message from me outside of those hours. If I need something I'll set up a scheduled Slack message to contact you when you're back online.
 
 ## Personality Type
 
-I’ve said before that I don’t put too much stock in personality types, but 16 Personalities gets pretty close (I think) as an [Assertive Advocate](https://www.16personalities.com/infj-personality) (INFJ-A). Here’s my [full profile on 16 Personalities](https://www.16personalities.com/profiles/0a91e592ff94e). 
+I’ve said before that I don’t put too much stock in personality types, but 16 Personalities gets pretty close (I think) as an [Assertive Advocate](https://www.16personalities.com/infj-personality) (INFJ-A). Here’s my [full profile on 16 Personalities](https://www.16personalities.com/profiles/0a91e592ff94e).
 
 [RedBull Wingfinder Passport](https://www.dropbox.com/s/5n44z5cj4bj9j08/RedBull%20Wingfinder%20Passport.pdf?dl=0)
 
@@ -122,8 +131,6 @@ For me personally, no news is good news. I sometimes don’t do a good job of le
 
 I’m a generalist; I know a little bit about a lot of things. I probably don’t have the deep knowledge of specific languages or technologies that you have. That’s why I hired you 😀 ! I’m really good at getting to the meat of a problem or asking probing questions to get to the core of an issue ([five whys](https://en.wikipedia.org/wiki/Five_whys)). Lean on me for troubleshooting, getting to the root of an issue, and making sure that we’re answering the right “why.” I’ll lean on you for the technical know-how to make it all magic.
 
-`TODO:` Talk about conflict avoidance, and how I overcome this by being (sometimes) uncomfortably blunt.
-
 ## Other Things About Me
 
 * Social Media
@@ -131,16 +138,15 @@ I’m a generalist; I know a little bit about a lot of things. I probably don’
 	* [LinkedIn](https://www.linkedin.com/in/danshort)
 	* Facebook: I reserve Facebook for personal friends (sorry, no coworkers or colleagues allowed). So connect with me on LinkedIn to stay social with me.
 
-* I’m a mentor on [PlatoHQ](https://www.platohq.com/mentors/Daniel-Short-3a47c)
 * I have drafts of articles to post on LinkedIn and Medium, but the [imposter syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) is real, and I haven’t posted on my [blog](https://www.dansshorts.com) since I [posted about not posting on my blog](http://www.dansshorts.com/post/refinding-your-voide).
 
 ## Family & Personal Life
 
-I grew up in north Texas, moved around a bit with the military, spent time in Oregon and California, and settled in the Austin, Texas area in 2006. I convinced my (now) wife to move from her home state of California, and she’s become a converted Texan. I have an adult son looking to get into the movie-making industry. He got married on May the 4th, 2022, and I am now officially old.
+I grew up in north Texas, moved around a bit with the military after High School, spent time in Oregon and California, and settled in the Austin, Texas area in 2006. I convinced my (now) wife to move from her home state of California, and she’s become a converted Texan. I have an adult son looking to get into the movie-making industry.
 
-When I’m not at work, I’m usually spending time with my wife and close friends. We cook every meal at home, have a backyard garden where we spend hours to save 10s of dollars on groceries, and enjoy making things to make our nest even cozier. We like being away from the metropolitan hustle and bustle but being close enough to attend a concert or musical when the mood strikes.
+When I’m not at work, I’m usually spending time with my wife and close friends. We cook every meal at home, have a backyard garden where we spend hours to save 10s of dollars on groceries, and enjoy making things to make our nest even cozier. We like being away from the metropolitan hustle and bustle but being close enough to grab some sushi or attend a concert or musical when the mood strikes.
 
-In 2022 we gook a month-long road trip around the North East US and absolutely loved it. I’m looking forward to spending more time traveling in the future, and exploring the world with my lovely wife.
+In 2022 we took a month-long road trip around the North East US and absolutely loved it. I’m looking forward to spending more time traveling in the future, and exploring the world with my lovely wife.
 
 I love tear-jerking dramas and gratuitous action flicks, and pretty much anything in between.
 
@@ -153,7 +159,7 @@ Work in progress, may be ugly
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We lose the habit of reading because we’re afraid of wasting our time. We think we need to be productive and “on the go” at all times. But people are not machines, and you are nourished by naps and fiction and basking in sunlight, no less than by food and drink.</p>&mdash; Owl! at the Library 😴🧙‍♀️ (@SketchesbyBoze) <a href="https://twitter.com/SketchesbyBoze/status/1433489882094178313?ref_src=twsrc%5Etfw">September 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[GoodReads reading list](https://www.notion.sogoodreads.com/danshort)
+[GoodReads reading list](https://goodreads.com/danshort)
 
 * [Radical Candor](https://www.amazon.com/Radical-Candor-Revised-Kick-Ass-Humanity-ebook/dp/B07P9LPXPT/)
 * [An Elegant Puzzle: Systems of Engineering Management](https://www.amazon.com/Elegant-Puzzle-Systems-Engineering-Management/dp/1732265186/)
@@ -167,7 +173,7 @@ Work in progress, may be ugly
 
 ### Recently Read:
 
-[Dan’s favorite books »](https://www.goodreads.com/user/show/76282116-dan) 
+[Dan’s favorite books »](https://www.goodreads.com/user/show/76282116-dan)
 
 * [The Ideal Team Player](https://a.co/d/ekFCOAd)
 * [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers-ebook/dp/B00AFPVP0Y/)
