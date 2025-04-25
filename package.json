@@ -1,6 +1,6 @@
 {
   "name": "danshort.github.io",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dan Short's personal readme file",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/danshort/danshort.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "@11ty/eleventy": "^3.0.0"
   }
 }
