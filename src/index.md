@@ -49,6 +49,8 @@ Conversely, I need to know what you’re working on and what problems you may be
 
 Give me plenty of heads up, as I’ll be doing the same for you.
 
+You can count on me to advocate for your work in all directions. I’ll make sure your progress and goals are visible at the C-level and well-communicated across adjacent teams, including product, support, and peer engineering groups alike. Effective cross-functional communication is critical to how we partner with GTM, Sales, Partnerships, and Product Marketing. These teams need clear, timely updates on what we're building, changing, and shipping, because their success depends on ours.
+
 I also want to make sure that everyone is communicating, async, a lot. All conversations around the work should default to public spaces and only be moved into a private space if the conversation is disruptive to other processes or may cause confusion for people outside of a smaller group.
 
 ### Curiosity and “Always Learning”
