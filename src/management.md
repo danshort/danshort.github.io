@@ -1,5 +1,5 @@
 ---
-title: "Management Expertise"
+title: "README.dan - Management Expertise"
 description: "Insights and experiences in effective management."
 layout: "base.html"
 permalink: "management/"
