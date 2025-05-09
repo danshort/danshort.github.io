@@ -19,7 +19,7 @@ If I were going to put my management philosophy on the cover of a book, it would
 * **Healthy:** you aren’t getting burnt out. You have adequate time to decompress and spend time with your family (furry or otherwise), nature, or a good book. Your mental health is just as important as your physical health. You know you can come to me with an issue (be it personal or professional), and we’ll work through it or get you the resources to work through it.
 * **Successful:** you’re doing good work, and you see your work make an impact in production. You have a way forward in your career, and you can improve yourself while improving the business. You’re hitting your goals and supporting the business timelines.
 
-I also strive to create a Leader-Leader environment (as opposed to a Leader-Follower organization [see [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers-ebook/dp/B00AFPVP0Y/) ]). This style of leadership is particularly important in a fully remote environment, where we aren't always in the same room, and there is little to no direct supervision. When working remotely, team autonomy and clear communication become even more critical. I've found that successful remote teams require:
+I also strive to create a Leader-Leader environment (as opposed to a Leader-Follower organization [see [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers-ebook/dp/B00AFPVP0Y/)]). This style of leadership is particularly important in a fully remote environment, where we aren't always in the same room, and there is little to no direct supervision. When working remotely, team autonomy and clear communication become even more critical. I've found that successful remote teams require:
 
 * Clear documentation of decisions and context
 * Explicit trust in team members to manage their time
@@ -28,6 +28,8 @@ I also strive to create a Leader-Leader environment (as opposed to a Leader-Foll
 * A culture where results matter more than hours online
 
 I can't be involved in every decision, so I rely on my team to make the decisions they can and then let me know where they're going. I won’t be micro-managing or assigning specific things for you to work on. I’ll work with you to define the goal and let you decide how to get there (with help from me when and where you need it).
+
+I've written some more about my [management history and experience](/management/).
 
 ### Conflict Resolution
 
