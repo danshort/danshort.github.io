@@ -3,9 +3,14 @@
   "role": "Director of Engineering at Virtuous",
   "managingYear": 2010,
   "executiveYear": 2015,
+  "devYear": 2001,
   "gravatar": "fdf193996bb66896b8c9c112a2b0e368019bb0780db5ee881c8d075b0aa118e4",
-  "siteUrl": "https://readme.dansshorts.com",
+  "siteUrl": "https://readme.dan",
   "siteName": "README.dan",
   "locale": "en_US",
-  "defaultDescription": "Learn more about Dan Short, Director of Engineering at Virtuous"
+  "defaultDescription": "Learn more about Dan Short, Director of Engineering at Virtuous",
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/danshort",
+    "github": "https://github.com/danshort"
+  }
 }

@@ -310,11 +310,14 @@ function initializeStats() {
     // Calculate years of experience
     const startManagingYear = site.managingYear;
     const startExecutiveYear = site.executiveYear;
+    const startDevYear = site.devYear;
 
     const yearsManaging = currentYear - startManagingYear;
     const yearsExecutive = currentYear - startExecutiveYear;
+    const yearsDev = currentYear - startDevYear;
 
     // Update the DOM
     document.getElementById('years-managing').textContent = yearsManaging;
     document.getElementById('years-executive').textContent = yearsExecutive;
+    document.getElementById('years-dev').textContent = yearsDev;
 }
