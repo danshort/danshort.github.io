@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function generateTableOfContents() {
     const tocContainer = document.getElementById('toc');
     const contentSection = document.querySelector('.content');
-    const headings = contentSection.querySelectorAll('h2, h3');
+    const headings = contentSection.querySelectorAll('h1, h2, h3');
 
     // Clear any existing TOC items first
     tocContainer.innerHTML = '';
@@ -44,8 +44,11 @@ function generateTableOfContents() {
         const listItem = document.createElement('li');
         const link = document.createElement('a');
 
+        // Remove any heading IDs that appear in the text itself (like #)
+        const headingText = heading.textContent.replace(/#/g, '').trim();
+
         link.href = `#${heading.id}`;
-        link.textContent = heading.textContent;
+        link.textContent = headingText;
         link.classList.add(`toc-${heading.tagName.toLowerCase()}`);
 
         listItem.appendChild(link);

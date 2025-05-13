@@ -64,8 +64,8 @@
                     <img src="https://www.gravatar.com/avatar/{{ site.gravatar }}?s=400" alt="{{ site.name }}">
                 </div>
                 <div class="profile-title">
-                    <h1 class="profile-name">{{ name | default(site.name) }}</h1>
-                    <p class="profile-role">{{ role | default(site.role) }}</p>
+                    <span class="profile-name">{{ name | default(site.name) }}</span>
+                    <span class="profile-role">{{ role | default(site.role) }}</span>
                     <div class="stats-container">
                         <div class="stat-item">
                             <span class="stat-value" id="years-dev">--</span>

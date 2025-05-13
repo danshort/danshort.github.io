@@ -168,9 +168,11 @@ code {
 
 /* Table of Contents */
 .toc-container h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-top: 0;
-    border-bottom: none;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
 }
 
 .toc {
@@ -179,7 +181,8 @@ code {
 }
 
 .toc li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
+    line-height: 1.3;
 }
 
 .toc a {
@@ -188,6 +191,10 @@ code {
     padding: 0.2rem 0;
     text-decoration: none;
     font-size: 0.9rem;
+    transition: color 0.2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .toc a:hover {
@@ -199,13 +206,20 @@ code {
     font-weight: 600;
 }
 
-.toc-h2 {
+.toc a.toc-h1 {
     font-weight: 600;
+    font-size: 1rem;
 }
 
-.toc-h3 {
+.toc a.toc-h2 {
+    font-weight: 500;
     padding-left: 1rem;
+}
+
+.toc a.toc-h3 {
+    padding-left: 2rem;
     font-size: 0.85rem;
+    color: var(--secondary-color);
 }
 
 /* Hamburger Menu for Mobile */
@@ -288,13 +302,14 @@ code {
     font-size: 1.8rem;
     margin: 0;
     font-weight: 600;
-    border-bottom: none;
+    display: block;
 }
 
 .profile-role {
     color: var(--secondary-color);
     font-size: 1.2rem;
     margin: 0.25rem 0 0.5rem 0;
+    display: block;
 }
 
 /* Stats Section */
