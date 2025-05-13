@@ -24,7 +24,7 @@ If there's one area where I bring the most depth, it's people management. I've s
 
 I've supported engineers through all kinds of career development; promotions, lateral shifts, and "N-shaped" moves that better aligned their strengths with company needs. One of my proudest moments was supporting an employee through a decade-long journey from Customer Support to QA, then into engineering, and finally into an Engineering Manager role. Watching that transformation and having a hand in it remains one of the highlights of my career.
 
-I've also handled the hard parts of leadership. I've let go of underperforming managers when the role called for stronger leadership. I've had to manage out engineers after investing deeply in their success. And I've led multiple rounds of layoffs, holding separation meetings for nearly two dozen engineers ine one day. An painful experience I'll never forget.
+I’ve also handled the hard parts of leadership. I’ve let go of underperforming managers when the role called for stronger leadership. I’ve had to manage out engineers after investing deeply in their success. And I’ve led multiple rounds of layoffs, holding separation meetings for nearly two dozen engineers in one day. An painful experience I’ll never forget.
 
 Through it all, I've operated with care, clarity, and ownership. I don't need micromanagement or detailed instruction. Work with me to figure out where we're going and I'll move decisively, bringing my teams with me.
 
