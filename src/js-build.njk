@@ -1,0 +1,8 @@
+---
+permalink: "/js/main.js"
+eleventyExcludeFromCollections: true
+---
+{% set js %}
+{% include "./js/main.js" %}
+{% endset %}
+{{ js | jsmin | safe }}
