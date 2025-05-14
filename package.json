@@ -25,6 +25,7 @@
     "clean-css": "^5.3.3",
     "terser": "^5.39.1",
     "markdown-it": "^14.1.0",
-    "markdown-it-anchor": "^9.2.0"
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-attrs": "^4.1.6"
   }
 }

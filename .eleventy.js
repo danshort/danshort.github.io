@@ -1,5 +1,6 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItAttrs = require('markdown-it-attrs');
 const CleanCSS = require("clean-css");
 const Terser = require("terser");
 const fs = require("fs");
@@ -10,13 +11,26 @@ module.exports = function(eleventyConfig) {
         html: true,
         breaks: true,
         linkify: true
-    }).use(markdownItAnchor, {
+    })
+    // Apply markdown-it-attrs first
+    .use(markdownItAttrs, {
+        allowedAttributes: [], // Empty array means all attributes are allowed
+        leftDelimiter: '{',
+        rightDelimiter: '}'
+    })
+    // Then apply anchor links
+    .use(markdownItAnchor, {
         permalink: true,
         permalinkClass: "direct-link",
-        permalinkSymbol: "#"
+        permalinkSymbol: "#",
+        level: [1, 2, 3, 4]
     });
 
     eleventyConfig.setLibrary("md", markdownLibrary);
+
+    // IMPORTANT: Set the markdown template engine to null
+    // This prevents Nunjucks from trying to process markdown files
+    eleventyConfig.markdownTemplateEngine = null;
 
     // Add a date formatting filter
     eleventyConfig.addFilter("readableDate", dateObj => {
@@ -50,9 +64,6 @@ module.exports = function(eleventyConfig) {
     });
 
     // Passthrough file copy
-    // Don't passthrough CSS and JS as we'll process them with our build templates
-    // eleventyConfig.addPassthroughCopy("./src/css");
-    // eleventyConfig.addPassthroughCopy("./src/js");
     eleventyConfig.addPassthroughCopy("./src/images");
 
     // Watch for changes
@@ -69,7 +80,6 @@ module.exports = function(eleventyConfig) {
             data: "_data"          // Data directory
         },
         templateFormats: ["md", "njk", "html"],
-        markdownTemplateEngine: "njk",
         htmlTemplateEngine: "njk"
     };
 };

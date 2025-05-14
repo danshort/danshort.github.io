@@ -36,19 +36,22 @@ function generateTableOfContents() {
     tocContainer.innerHTML = '';
 
     headings.forEach(heading => {
-        // Ensure heading has an id
+        // Check if heading already has an ID (from markdown-it-attrs)
+        // If not, create a safe ID
         if (!heading.id) {
-            heading.id = heading.textContent.toLowerCase().replace(/[^\w]+/g, '-');
+            const headingText = heading.textContent.trim();
+            const sanitizedId = createSafeId(headingText);
+            heading.id = sanitizedId;
         }
 
         const listItem = document.createElement('li');
         const link = document.createElement('a');
 
-        // Remove any heading IDs that appear in the text itself (like #)
-        const headingText = heading.textContent.replace(/#/g, '').trim();
+        // Clean the text for display in TOC
+        const displayText = heading.textContent.replace(/#/g, '').trim();
 
         link.href = `#${heading.id}`;
-        link.textContent = headingText;
+        link.textContent = displayText;
         link.classList.add(`toc-${heading.tagName.toLowerCase()}`);
 
         listItem.appendChild(link);
@@ -57,45 +60,67 @@ function generateTableOfContents() {
 }
 
 /**
+ * Creates a safe ID from heading text by removing problematic characters
+ * and ensuring it's valid for use as an HTML ID
+ */
+function createSafeId(text) {
+    // Remove any quotes, special characters, and convert spaces to hyphens
+    return text
+        .toLowerCase()
+        .replace(/['"]/g, '') // Remove quotes
+        .replace(/[^\w\s-]/g, '') // Remove special chars except spaces and hyphens
+        .replace(/\s+/g, '-') // Replace spaces with hyphens
+        .replace(/-+/g, '-') // Remove consecutive hyphens
+        .replace(/^-+|-+$/g, ''); // Trim hyphens from start and end
+}
+
+/**
  * Sets up scroll spy to highlight current section in TOC
  */
 function setupScrollSpy() {
     // Get all section headings with IDs
-    const sections = Array.from(document.querySelectorAll('.content h2[id], .content h3[id]'));
+    const sections = Array.from(document.querySelectorAll('.content h1[id], .content h2[id], .content h3[id]'));
     const tocLinks = document.querySelectorAll('#toc a');
 
     // Update scroll spy on scroll and resize
     function updateScrollSpy() {
-        // Sort sections by their position on the page (top to bottom)
-        // This needs to be recalculated on each check as positions may change
-        sections.sort((a, b) => a.offsetTop - b.offsetTop);
+        // Early exit if no sections or toc links
+        if (sections.length === 0 || tocLinks.length === 0) return;
+
+        // Get current scroll position
+        const scrollPosition = window.scrollY;
 
         // Find the current section in view
-        let currentSectionId = '';
-        // Use the same offset calculation for consistency
-        const offset = calculateScrollOffset();
-        const scrollPosition = window.scrollY + offset;
+        let currentSection = null;
+        let minDistance = Infinity;
 
-        // Find the last section that starts before the current scroll position
-        for (let i = 0; i < sections.length; i++) {
-            const section = sections[i];
-            if (section.offsetTop <= scrollPosition) {
-                currentSectionId = section.id;
-            } else {
-                // Stop once we find a section below the scroll position
-                break;
+        // Get visible portion of the page
+        const bufferTop = getFixedElementsHeight();
+        const visibleTop = scrollPosition + bufferTop;
+
+        // Find the section closest to the top of the visible area
+        for (const section of sections) {
+            const sectionTop = section.getBoundingClientRect().top + window.scrollY;
+            // Calculate how far this section is from the ideal position
+            const distance = Math.abs(sectionTop - visibleTop);
+
+            // If this section is closer than the current best match, update
+            if (distance < minDistance) {
+                minDistance = distance;
+                currentSection = section;
             }
         }
 
-        // Update TOC active state
-        tocLinks.forEach(link => {
-            link.classList.remove('active');
-            const href = link.getAttribute('href');
-
-            if (href === `#${currentSectionId}`) {
-                link.classList.add('active');
-            }
-        });
+        // Update active state in TOC
+        if (currentSection) {
+            const currentId = currentSection.id;
+            tocLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${currentId}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
     }
 
     // Run scroll spy on scroll
@@ -106,12 +131,14 @@ function setupScrollSpy() {
 
     // Update when hamburger menu is toggled
     const hamburgerToggle = document.getElementById('hamburger-menu');
-    hamburgerToggle.addEventListener('click', function() {
-        // Wait a bit for the transition to complete
-        setTimeout(updateScrollSpy, 300);
-    });
+    if (hamburgerToggle) {
+        hamburgerToggle.addEventListener('click', function() {
+            // Wait for transition to complete
+            setTimeout(updateScrollSpy, 300);
+        });
+    }
 
-    // Trigger scroll event on page load
+    // Initial run
     updateScrollSpy();
 }
 
@@ -129,14 +156,7 @@ function setupSmoothScrolling() {
             const targetElement = document.querySelector(targetId);
 
             if (targetElement) {
-                // Calculate offset based on screen size and sidebar state
-                const offset = calculateScrollOffset();
-                const targetPosition = targetElement.offsetTop - offset;
-
-                window.scrollTo({
-                    top: targetPosition,
-                    behavior: 'smooth'
-                });
+                scrollToElement(targetElement);
 
                 // Update URL hash without jumping
                 history.pushState(null, null, targetId);
@@ -146,19 +166,40 @@ function setupSmoothScrolling() {
 }
 
 /**
- * Calculate appropriate scroll offset based on viewport and sidebar state
+ * Gets the height of all fixed elements at the top of the page
  */
-function calculateScrollOffset() {
-    // Default offset for desktop
-    let offset = 80;
-
-    // Adjust for mobile if the menu is collapsed
+function getFixedElementsHeight() {
     if (window.innerWidth <= 768) {
+        // On mobile, the sidebar is not fixed when scrolling
         const sidebar = document.querySelector('.sidebar');
-        offset = sidebar.offsetHeight + 20; // Height of collapsed sidebar + buffer
+        return sidebar.offsetHeight;
+    } else {
+        // On desktop, account for any fixed headers/nav
+        // We use a reasonable default that works well
+        return 120; // Adjusted value to ensure proper positioning
     }
+}
 
-    return offset;
+/**
+ * Scroll to an element with proper positioning
+ */
+function scrollToElement(element) {
+    // Calculate the target position
+    const elementRect = element.getBoundingClientRect();
+    const absoluteElementTop = elementRect.top + window.pageYOffset;
+
+    // Get the height of fixed elements at the top
+    const fixedElementsHeight = getFixedElementsHeight();
+
+    // Calculate the final scroll position
+    // Subtract fixed elements height and add some padding for better visibility
+    const scrollPosition = absoluteElementTop - fixedElementsHeight;
+
+    // Perform the scroll
+    window.scrollTo({
+        top: scrollPosition,
+        behavior: 'smooth'
+    });
 }
 
 /**
@@ -169,16 +210,10 @@ function handleInitialHash() {
         const targetElement = document.querySelector(window.location.hash);
 
         if (targetElement) {
+            // Delay to ensure page is fully loaded
             setTimeout(() => {
-                // Use the same offset calculation as smooth scrolling
-                const offset = calculateScrollOffset();
-                const targetPosition = targetElement.offsetTop - offset;
-
-                window.scrollTo({
-                    top: targetPosition,
-                    behavior: 'smooth'
-                });
-            }, 100);
+                scrollToElement(targetElement);
+            }, 300);
         }
     }
 }
@@ -248,6 +283,8 @@ function capitalizeFirstLetter(string) {
 function initializeHamburgerMenu() {
     const hamburgerToggle = document.getElementById('hamburger-menu');
     const tocContainer = document.querySelector('.toc-container');
+
+    if (!hamburgerToggle || !tocContainer) return;
 
     // Add click event to hamburger icon
     hamburgerToggle.addEventListener('click', function() {

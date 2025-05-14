@@ -12,7 +12,7 @@ Every repo worth it's bits has a `README.md` that describes the project, how it 
 
 This document is aspirational. This is how I _strive_ to be. I'm not perfect. I have made and will continue to make mistakes. I urge you to hold me accountable for my promises, and I'll do the same for you. Without your feedback, I will not be able to improve as a manager.
 
-# My Role and Management Philosophy
+# My Role and Management Philosophy {#my-management-philosophy}
 
 If I were going to put my management philosophy on the cover of a book, it would be "Servant Leadership." My job is to make sure that you can do your job. I want for you the same thing I want for my family; for you to be **happy, healthy, and successful**. Here's how I judge if I'm doing a good job:
 
@@ -40,7 +40,7 @@ When security or vulnerability concerns arise, I ensure they get proper attentio
 
 Trying to get consensus in large groups is the enemy of progress. We may need to commit to an approach in cases where myself, you, a partner, or the team will not agree with it. It is my job to drive a clear direction for next steps so that we can _keep moving forward_. I will work to keep everyone accountable to the decision that was made and escalate when that is not the case. While we may have to go backward and readjust, we will have the learnings from the first approach taken and can apply that to our second attempt. My ultimate goal is to keep forward momentum.
 
-# What do I value most?
+# What do I value most? {#what-do-i-value}
 
 Transparency, curiosity, humility, trust, and a sense of humor.
 
@@ -56,13 +56,13 @@ You can count on me to advocate for your work in all directions. I'll make sure 
 
 I also want to make sure that everyone is communicating, async, a lot. All conversations around the work should default to public spaces and only be moved into a private space if the conversation is disruptive to other processes or may cause confusion for people outside of a smaller group.
 
-## Curiosity and "Always Learning"
+## Curiosity and "Always Learning" {#curiosity-and-always-learning}
 
 I do very little engineering work any longer and spend most of my time focused on learning about how to be a better leader. This means focusing on how to support the team, how to make sure we're planning properly, and finding new ways to keep my teams happy, healthy, and successful ( _there it is again!_ ).
 
 This means that I'm taking the time to learn new approaches to old problems, and I expect my teams to do the same. I want everyone to approach problems with curiosity, not preconceived notions, and be willing to challenge both their own and their teammate's assumptions. It's perfectly acceptable to have strong opinions, we're all smart people, but they should be loosely held and open to challenge.
 
-## Humility and a willingness to say "I don't know"
+## Humility and a willingness to say "I don't know" {#humility-and-i-dont-know}
 
 "Humility is not thinking less of yourself, it's thinking of yourself less."
 -- Rick Warren
@@ -120,7 +120,7 @@ I've said before that I don't put too much stock in personality types, but 16 Pe
 
 [RedBull Wingfinder Passport](https://www.dropbox.com/s/5n44z5cj4bj9j08/RedBull%20Wingfinder%20Passport.pdf?dl=0)
 
-# 1:1s
+# 1:1s {#one-on-ones}
 
 You and I will have 1:1s every week or two, depending on your needs. Your 1:1s are your 1:1s, and we'll discuss the topics that are most important to you. We'll keep a record of these topics in a shared document, and you will drive the meetings. Expect me to ask questions and probe around the areas of your interest, but we'll keep on topic and I will endeavor to not turn these into status updates (unless that's what you want).
 
@@ -145,7 +145,7 @@ I'm a generalist; I know a little bit about a lot of things. I probably don't ha
 
 * I have drafts of articles to post on LinkedIn and Medium, but the [imposter syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) is real, and I haven't posted on my [blog](https://www.dansshorts.com) since I [posted about not posting on my blog](http://www.dansshorts.com/post/refinding-your-voide).
 
-# Family & Personal Life
+# Family & Personal Life {#family-and-personal-life}
 
 I grew up in north Texas, moved around a bit with the military after High School, spent time in Oregon and California, and settled in the Austin, Texas area in 2006. I convinced my (now) wife to move from her home state of California, and she's become a converted Texan. I have an adult son looking to get into the movie-making industry.
 
@@ -160,7 +160,8 @@ I listen to just about any kind of music except for opera and twangy country (I 
 I also spend quite a bit of time reading, whether that be ways to improve myself or escapism in fantasy and sci-fi. You can see everything I've read or am reading on my Kindle on my GoodReads list.
 
 Work in progress, may be ugly
-# Currently Reading:
+
+# Currently Reading: {#currently-ready}
 
 <blockquote><p lang="en" dir="ltr">We lose the habit of reading because we're afraid of wasting our time. We think we need to be productive and "on the go" at all times. But people are not machines, and you are nourished by naps and fiction and basking in sunlight, no less than by food and drink.</p>&mdash; Owl! at the Library 😴🧙‍♀️ (@SketchesbyBoze) <a href="https://twitter.com/SketchesbyBoze/status/1433489882094178313?ref_src=twsrc%5Etfw">September 2, 2021</a></blockquote>
 
@@ -169,14 +170,14 @@ Work in progress, may be ugly
 * [Radical Candor](https://www.amazon.com/Radical-Candor-Revised-Kick-Ass-Humanity-ebook/dp/B07P9LPXPT/)
 * [An Elegant Puzzle: Systems of Engineering Management](https://www.amazon.com/Elegant-Puzzle-Systems-Engineering-Management/dp/1732265186/)
 
-## Next on the List
+## Next on the List: {#next-on-the-list}
 
 * [Click Here to Kill Everybody: Security and Survival in a Hyper-connected World](https://www.amazon.com/Click-Here-Kill-Everybody-Hyper-connected/dp/0393357449/)
 * [Implementing Zero Trust Security in a Digital World](https://www.amazon.com/Implementing-Security-Digital-World-implementation-ebook/dp/B0BF25QS9Z/)
 * [The Leader's Guide to Unconscious Bias](https://www.amazon.com/Leaders-Guide-Unconscious-Bias-High-Performing-ebook/dp/B084GB2W94/)
 * [Influencing Virtual Teams: 17 Tactics That Get Things Done with Your Remote Employees](https://www.amazon.com/Influencing-Virtual-Teams-Tactics-Employees/dp/1530005140/)
 
-## Recently Read:
+## Recently Read: {#recently-read}
 
 [Dan's favorite books »](https://www.goodreads.com/user/show/76282116-dan)
 

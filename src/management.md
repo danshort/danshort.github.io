@@ -7,13 +7,13 @@ permalink: "management/"
 tags: ["management", "leadership", "expertise"]
 ---
 
-# What I Bring to the Table as an Engineering Leader
+# What I Bring to the Table as an Engineering Leader {#what-i-bring}
 
 A recent conversation with a hiring manager surfaced a great point: my resume doesn't fully capture the scope of my management experience. That feedback was invaluable, and prompted me to step back and better articulate what I've done, how I operate, and what I bring to any organization.
 
 This post serves as a more complete picture of my leadership experience for those evaluating me for a senior engineering leadership role.
 
-# People Management Is My Strongest Suit
+# People Management Is My Strongest Suit {#people-management}
 
 If there's one area where I bring the most depth, it's people management. I've spent over a decade leading engineering teams through growth, change, and challenging transitions.
 
@@ -23,15 +23,15 @@ I’ve also handled the hard parts of leadership. I’ve let go of underperformi
 
 Through it all, I've operated with care, clarity, and ownership. I don't need micromanagement or detailed instruction. Work with me to figure out where we're going and I'll move decisively, bringing my teams with me.
 
-# Deep Technical Judgment, Guiding Execution
+# Deep Technical Experience, Guiding Execution {#technical-experience}
 
-While I no longer write code daily, I bring deep technical judgment shaped by years of full-stack development experience. My strongest technical contributions are in backend architecture and in helping teams improve their development velocity, manage complexity, and reduce cycle time.
+While I no longer write code daily, I bring deep technical experience shaped by years of full-stack development experience. My strongest technical contributions are in backend architecture and in helping teams improve their development velocity, manage complexity, and reduce cycle time.
 
 I won't pretend I'm hands-on with the latest front-end frameworks or writing production code anymore, that's not where I provide the most value. Instead, I focus on ensuring that my teams are architecting systems responsibly, balancing delivery speed with long-term maintainability, and making sound trade-offs.
 
 I rely on my senior ICs - Leads, Staff, and Principal Engineers - to dive into implementation details. My job is to make sure they have the context, space, and support to do their best work.
 
-# Clear, Candid, and Nuanced Judgment
+# Clear, Candid, and Nuanced Judgment {#nuanced-judgement}
 
 I believe clarity is kindness. I'm not afraid to say "I don't know," and I don't shy away from hard conversations. If I think we're heading in the wrong direction, I'll say so with candor, care, respect, and a focus on getting to the best decision.
 
