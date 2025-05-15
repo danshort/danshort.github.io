@@ -13,6 +13,10 @@ A recent conversation with a hiring manager surfaced a great point: my resume do
 
 This post serves as a more complete picture of my leadership experience for those evaluating me for a senior engineering leadership role.
 
+# People _like_ to Work With Me {#people-like-me}
+
+In every role I've held, I've retained people longer than average, and have brought people along with me. When I left CoStar, the average tenure of my 24-person team was 5 years. Most of the individuals on my team had worked with me for more than half a decade. One individual had been working with me for 12 years when I finally left. I hired someone into that team that I worked with a Lynda.com. After leaving CoStar, I brought two people into InVision. I've hired two people into Virtuous that I worked with at CoStar on other supporting teams and continue to mentor and keep in touch with prior employees from all of my roles. I make it easier for people to do their best work, and they enjoy working with me.
+
 # People Management Is My Strongest Suit {#people-management}
 
 If there's one area where I bring the most depth, it's people management. I've spent over a decade leading engineering teams through growth, change, and challenging transitions.
