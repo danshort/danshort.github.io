@@ -1,5 +1,6 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItHeaderSections = require("markdown-it-header-sections");
 const markdownItAttrs = require('markdown-it-attrs');
 const CleanCSS = require("clean-css");
 const Terser = require("terser");
@@ -24,6 +25,12 @@ module.exports = function(eleventyConfig) {
         permalinkClass: "direct-link",
         permalinkSymbol: "#",
         level: [1, 2, 3, 4]
+    })
+    // Then wrap evertything in sections
+    .use(markdownItHeaderSections, {
+    // Optional config: which heading levels to wrap
+    // default is to wrap h1 through h6
+    // levels: [2] // wrap only h2 sections
     });
 
     eleventyConfig.setLibrary("md", markdownLibrary);
