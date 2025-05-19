@@ -1,0 +1,40 @@
+---
+layout: base.njk
+title: Resume
+---
+
+<div class="resume-container" style="display: grid; grid-template-columns: 2.5fr .75fr; gap: 2rem;">
+  <!-- Main Resume Content -->
+  <main>
+    <h1>{{ title }}</h1>
+    <section>
+      {{ content | safe }}
+    </section>
+  </main>
+
+  <!-- Skills Sidebar -->
+  <aside>
+    <h2>Skills</h2>
+
+
+    <ul class="skills" style="list-style: none; padding: 0;">
+      {% for skill in skills %}
+      <li style="margin-bottom: 1rem;">
+        <strong>{{ skill.name }}</strong>
+        {# <div style="background: #eee; border-radius: 4px; overflow: hidden; height: 8px;">
+          <div style="width: {{ skill.level }}%; height: 100%; background: #007acc;"></div>
+        </div> #}
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
+
+</div>
+
+<style>
+@media (max-width: 768px) {
+  .resume-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
