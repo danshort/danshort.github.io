@@ -508,7 +508,7 @@ code {
 
 @media print {
   /* Hide elements not needed in print */
-  .toc, nav, footer, aside.sidebar, .theme-toggle, .hamburger-toggle, .mentorship-link {
+  .toc, nav, footer, aside.sidebar, .theme-toggle, .hamburger-toggle, .mentorship-link, #skills-sidebar {
     display: none !important;
   }
 
@@ -541,7 +541,7 @@ code {
   }
 
   /* Prevent page breaks inside sections and key blocks */
-  section, h1, h2, h3, p, ul, li {
+  h1, h2, h3, p, ul, li {
     page-break-inside: avoid;
     break-inside: avoid;
   }
@@ -578,9 +578,4 @@ code {
     font-size: 8pt !important;
   }
 
-  /* Neutralize link appearance */
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
 }
