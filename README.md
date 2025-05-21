@@ -13,3 +13,6 @@ It's a work in progress, like myself, and will change and evolve over time. It's
 `npm start` to test locally, which also builds the documents on change.
 
 Stats are available through [Umami](https://us.umami.is/dashboard), and public statistics (I promise they will _not_ be impressive) can be viewed at the [Umami share URL](https://cloud.umami.is/share/mgCbCBMxdjBwFsyZ/readme.dansshorts.com).
+
+# Deployment Status
+[![pages-build-deployment](https://github.com/danshort/danshort.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/danshort/danshort.github.io/actions/workflows/pages/pages-build-deployment)
