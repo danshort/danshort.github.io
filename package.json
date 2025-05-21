@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx eleventy",
+    "clean": "rm -rf docs",
+    "build": "npm run clean && eleventy",
     "start": "eleventy --serve",
-    "debug": "DEBUG=* eleventy"
+    "debug": "DEBUG=Eleventy* eleventy"
   },
   "repository": {
     "type": "git",
