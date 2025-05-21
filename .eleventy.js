@@ -72,6 +72,8 @@ module.exports = function(eleventyConfig) {
 
     // Passthrough file copy
     eleventyConfig.addPassthroughCopy("./src/images");
+    // Copy CNAME file to output
+    eleventyConfig.addPassthroughCopy("src/CNAME");
 
     // Watch for changes
     eleventyConfig.addWatchTarget("./src/css/");
