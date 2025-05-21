@@ -1,10 +1,10 @@
+const fs = require('fs');
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItHeaderSections = require("markdown-it-header-sections");
 const markdownItAttrs = require('markdown-it-attrs');
 const CleanCSS = require("clean-css");
 const Terser = require("terser");
-const fs = require("fs");
 
 module.exports = function(eleventyConfig) {
     // Custom markdown renderer with anchor links
@@ -72,8 +72,21 @@ module.exports = function(eleventyConfig) {
 
     // Passthrough file copy
     eleventyConfig.addPassthroughCopy("./src/images");
-    // Copy CNAME file to output
-    eleventyConfig.addPassthroughCopy("src/CNAME");
+
+    // Generate CNAME file before build
+    eleventyConfig.on('beforeBuild', () => {
+        const packageJson = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+        const domain = packageJson.config?.domain;
+
+        if (domain) {
+            // Ensure docs directory exists
+            if (!fs.existsSync('./docs')) {
+                fs.mkdirSync('./docs', { recursive: true });
+            }
+            // Write CNAME directly to docs folder
+            fs.writeFileSync('./docs/CNAME', domain);
+        }
+    });
 
     // Watch for changes
     eleventyConfig.addWatchTarget("./src/css/");
@@ -82,11 +95,11 @@ module.exports = function(eleventyConfig) {
     // Configure directory structure
     return {
         dir: {
-            input: "src",           // Input directory
-            output: "docs",         // Output directory
-            includes: "_includes",  // Includes directory
-            layouts: "_includes/layouts", // Layouts directory
-            data: "_data"          // Data directory
+            input: "src",
+            output: "docs",
+            includes: "_includes",
+            layouts: "_includes/layouts",
+            data: "_data"
         },
         templateFormats: ["md", "njk", "html"],
         htmlTemplateEngine: "njk"

@@ -21,6 +21,9 @@
     "url": "https://github.com/danshort/danshort.github.io/issues"
   },
   "homepage": "https://github.com/danshort/danshort.github.io#readme",
+  "config": {
+    "domain": "readme.dansshorts.com"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "clean-css": "^5.3.3",
