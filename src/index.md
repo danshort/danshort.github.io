@@ -6,7 +6,7 @@ description: "My Manager README document that helps introduce you to my manageme
 note: "Under Construction: This document will never be finished, just like me."
 ---
 
-# Why a README?
+# Why a README? {#why-a-readme}
 
 Every repo worth it's bits has a `README.md` that describes the project, how it works, how to spin it up, how to contribute, all the basics you need to get the most out of that project. My Manager README is a document that helps introduce you to my management style, philosophy, and expectations. Basically, how you should expect to work with me! The intended audience is primarily anyone who reports to me, though anyone is free to read it - or even provide feedback on it! Please treat it as a reference and guideline for how I will conduct myself as a manager and what I expect from you.
 

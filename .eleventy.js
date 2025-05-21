@@ -21,10 +21,12 @@ module.exports = function(eleventyConfig) {
     })
     // Then apply anchor links
     .use(markdownItAnchor, {
-        permalink: true,
-        permalinkClass: "direct-link",
-        permalinkSymbol: "#",
-        level: [1, 2, 3, 4]
+        permalink: markdownItAnchor.permalink.linkInsideHeader({
+        symbol: `
+        <span aria-hidden="true">#</span>
+        `,
+        placement: 'after'
+    })
     })
     // Then wrap evertything in sections
     .use(markdownItHeaderSections, {
