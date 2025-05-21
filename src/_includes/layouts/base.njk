@@ -20,7 +20,7 @@
     <meta property="og:locale" content="{{ site.locale }}" />
 
     <!-- Umami Analytics -->
-    <script defer src="https://cloud.umami.is/script.js" data-website-id="a54a753e-4952-43fa-b507-5f77c05b2d0f"></script>
+    {% if env.isProd %}<script defer src="https://cloud.umami.is/script.js" data-website-id="a54a753e-4952-43fa-b507-5f77c05b2d0f"></script>{% endif %}
 
     <!-- CSS -->
     <link rel="stylesheet" href="/css/main.css">

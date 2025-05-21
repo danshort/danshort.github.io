@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf docs",
-    "build": "npm run clean && eleventy",
-    "start": "eleventy --serve",
+    "build": "export ELEVENTY_ENV=production && npm run clean && eleventy",
+    "start": "export ELEVENTY_ENV=development && eleventy --serve",
     "debug": "DEBUG=Eleventy* eleventy"
   },
   "repository": {

@@ -90,6 +90,12 @@ module.exports = function(eleventyConfig) {
         }
     });
 
+    // Log environment during build
+    eleventyConfig.on('beforeBuild', () => {
+        console.log('Current ELEVENTY_ENV:', process.env.ELEVENTY_ENV);
+        console.log('isProd:', process.env.ELEVENTY_ENV === 'production');
+    });
+
     // Watch for changes
     eleventyConfig.addWatchTarget("./src/css/");
     eleventyConfig.addWatchTarget("./src/js/");
