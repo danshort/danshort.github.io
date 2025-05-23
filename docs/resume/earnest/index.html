@@ -16,6 +16,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="README.dan" />
     <meta property="og:locale" content="en_US" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#222222" media="(prefers-color-scheme: dark)">
 
     <!-- Umami Analytics -->
     <script defer src="https://cloud.umami.is/script.js" data-website-id="a54a753e-4952-43fa-b507-5f77c05b2d0f"></script>
@@ -31,11 +33,14 @@
             devYear: '2001'
         };
     </script>
+    <!-- JavaScript -->
+    <script src="/js/main.js" defer></script>
 </head>
 <body>
+    
     <div class="container">
         <aside class="sidebar">
-            <div class="hamburger-toggle" id="hamburger-menu">
+            <div class="hamburger-toggle" id="hamburger-menu" aria-label="Toggle navigation menu" role="button" tabindex="0">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -293,8 +298,5 @@ Progressive engineering and people leadership roles across SaaS and consumer pla
             <p class="update-info">Updated: 19 May, 2025</p>
         </main>
     </div>
-
-    <!-- JavaScript -->
-    <script src="/js/main.js"></script>
 </body>
 </html>

@@ -73,7 +73,9 @@ module.exports = function(eleventyConfig) {
     });
 
     // Passthrough file copy
-    eleventyConfig.addPassthroughCopy("./src/images");
+    eleventyConfig.addPassthroughCopy({
+        "src/images": "images"
+    });
 
     // Generate CNAME file before build
     eleventyConfig.on('beforeBuild', () => {
