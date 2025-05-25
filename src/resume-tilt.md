@@ -58,7 +58,7 @@ Promoted within 9 months for impactful leadership across engineering, product, a
 ### CoStar Group (Land.com), Austin, TX
 **Senior Technical Manager / Acting Director of Software Development** | Sep 2016 – Aug 2021
 
-- Managed cross-functional teams across Austin and Seattle (22 engineers).
+- Managed cross-functional teams across Austin and Seattle (28 engineers).
 - Supported acquisition integrations, team growth, and organizational scaling.
 - Focused on psychological safety, structured onboarding, and mentorship to retain top talent.
 - Built career ladders, feedback frameworks, and improved team rituals to drive focus and transparency.

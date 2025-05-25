@@ -56,7 +56,7 @@ What sets me apart is my ability to simplify the complex: whether it's navigatin
 
 ### CoStar Group (Land.com), Austin, TX
 **Senior Technical Manager / Acting Director of Software Development** | Sep 2016 – Aug 2021
-- Built and led cross-functional teams across Austin and Seattle; 22 direct+matrixed reports.
+- Built and led cross-functional teams across Austin and Seattle; 28 direct+matrixed reports.
 - Directed consolidation of legacy platforms and executed multi-year roadmap for M&A integrations.
 - Led talent acquisition efforts, hiring 12+ engineers within 12 months during rapid expansion.
 - Worked directly with executives on product planning, vendor assessments, and platform direction.

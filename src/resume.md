@@ -73,7 +73,7 @@ _Remote | Aug 2021 – Feb 2023_
 ### CoStar Group (Land.com) — *Sr. Technical Manager / Acting Director of Software Development* {#costar-group}
 _Austin, TX | Sep 2016 – Aug 2021_
 - Oversaw LandsofAmerica.com, LandWatch.com, and LandAndFarm.com — 11M+ monthly visits, 54% YoY traffic growth, 61.8% YoY increase in leads.
-- Scaled engineering and QA team from 4 to 22; hired 12+ in 12 months with 90%+ retention.
+- Scaled engineering and QA team from 4 to 28; hired 12+ in 12 months with 90%+ retention.
 - Led technical integration of LandWatch following its multi-million dollar acquisition by CoStar.
 - Unified platform across three acquired brands to streamline operations and customer experience.
 

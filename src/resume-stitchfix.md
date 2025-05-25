@@ -59,7 +59,7 @@ Hired to scale engineering and establish technical and operational rigor in a fa
 **Senior Technical Manager / Acting Director of Software Development** | Sep 2016 – Aug 2021
 
 - Oversaw platform consolidation, roadmap delivery, and post-acquisition integration for land marketplaces.
-- Scaled engineering team from 6 to 22 and integrated engineering and data stakeholders into business strategy.
+- Scaled engineering team from 6 to 28 and integrated engineering and data stakeholders into business strategy.
 - Designed and led structured onboarding, hiring, and performance review systems.
 - Delivered analytics pipelines and supported key product-led growth initiatives with insights and tooling.
 
