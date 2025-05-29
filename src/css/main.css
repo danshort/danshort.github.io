@@ -508,7 +508,7 @@ code {
 
 @media print {
   /* Hide elements not needed in print */
-  .toc, nav, footer, aside.sidebar, .theme-toggle, .hamburger-toggle, .mentorship-link, #skills-sidebar {
+  .toc, nav, footer, aside.sidebar, .theme-toggle, .hamburger-toggle, .mentorship-link, #skills-sidebar, .dev-mode-indicator {
     display: none !important;
   }
 
