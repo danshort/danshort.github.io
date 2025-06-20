@@ -1,6 +1,6 @@
 {
   "name": "danshort.github.io",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Dan Short's personal readme file",
   "main": "index.js",
   "scripts": {
